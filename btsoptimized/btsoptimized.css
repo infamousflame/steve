@@ -8,16 +8,26 @@ main, footer {
 span {
   display: block;
 }
-ol, ul, h3 {
+ol, ul, {
   margin: 0;
-
+}
+.tupper {
+  width: 70%;
+  margin: 0 auto;
+}
+h3,
+div h2 {
+  margin: 5px 0;
 }
 .col-sm-6 {
   padding: 0;
 }
-main div,
+main>div,
 footer div {
-  padding: .5% 0;
+  padding: 1% 0;
+}
+main .container-fluid {
+  background: hsla(0, 0%, 100%, .25);
 }
 h2, p {
   padding: 0;
@@ -37,26 +47,50 @@ h2, p {
 .navbar {
   border-radius: 0px;
 }
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
   color: #333;
 }
+.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav>li>a:hover {
   color: #777;
 }
+/*End Navbar Styles*/
 .services ul li {
   width: calc(100% / 3);
   list-style: none;
   padding-bottom: 10px;
   box-sizing: border-box;
 }
-.tupper {
-  width: 70%;
-  margin: 0 auto;
+/*project section*/
+div.projects p,
+div.projects button {
+  margin: 5px 0;
+}
+/*mission section*/
+div.mission p {
+  margin: 5px 0;
+}
+div.mission .carousel-inner {
+  position: relative;
+}
+div.mission div.item {
+  height: 300px;
+}
+div.mission .slide1 {
+  background: url("../images/slideFAA21.jpg");
+  background-repeat: no-repeat;
+}
+div.mission .slide2 {
+  background: url("..images/slideFAA21.jpg");
+  background-repeat: no-repeat;
 }
 footer {
   display: flex;
   justify-content: flex-end;
   padding: 20px 0;
+  background: hsla(0, 0%, 0%, .25);
+  color: hsla(0, 0%, 70%, 1);
 }
 footer .container-fluid {
   margin-left: 0;
