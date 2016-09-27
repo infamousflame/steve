@@ -62,6 +62,13 @@ h2, p {
   padding-bottom: 10px;
   box-sizing: border-box;
 }
+main div:nth-last-of-type(1) {
+  width: 100%;
+}
+main div:nth-of-type(1) img {
+  width: 100%;
+}
+main:first
 /*project section*/
 div.projects p,
 div.projects button {
